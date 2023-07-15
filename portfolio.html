@@ -10,48 +10,60 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./modern.normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="global-header">
-      <a href="index.html">
-        <h2 class="logo-web">WebStudio</h2>
-      </a>
+      <div class="logo-header">
+        <a href="index.html" class="logo"><span>Web</span>Studio</a>
+      </div>
+      <a href="index.html"> </a>
       <nav class="main-navigation">
-        <ul>
-          <li><a href="index.html" class="active">Studio</a></li>
-          <li><a href="portfolio.html" class="active">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+        <ul class="nav-links">
+          <li class="link-one">
+            <a href="index.html" class="active">Studio</a>
+          </li>
+          <li class="link-two">
+            <a href="portfolio.html" class="active">Portfolio</a>
+          </li>
+          <li class="link-three"><a href="">Contacts</a></li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com" class="email">info@devstudio.com</a>
-      <a href="tel:+1 212-772-4150" class="phone-number">+1 212-772-4150</a>
-
-      <hr />
+      <div class="navigation-contacts">
+        <a href="mailto:info@devstudio.com" class="email">info@devstudio.com</a>
+        <a href="tel:+1 212-772-4150" class="phone-number">+1 212-772-4150</a>
+      </div>
     </header>
-    <main>
-      <section>
-        <ul>
+    <main class="main-container">
+      <section class="full-container">
+        <ul class="button-container">
           <li>
-            <button type="button" class="button">All</button>
+            <button type="button" class="button button-one">All</button>
           </li>
           <li>
-            <button type="button" class="button">Web-sites</button>
+            <button type="button" class="button button-two">Web-sites</button>
           </li>
-          <li><button type="button" class="button">Apps</button></li>
-          <li><button type="button" class="button">Design</button></li>
-          <li><button type="button" class="button">Marketing</button></li>
+          <li>
+            <button type="button" class="button button-three">Apps</button>
+          </li>
+          <li>
+            <button type="button" class="button button-four">Design</button>
+          </li>
+          <li>
+            <button type="button" class="button button-five">Marketing</button>
+          </li>
         </ul>
-      </section>
-      <section>
-        <ul>
+
+        <ul class="content-container">
           <li>
-            <div>
+            <div class="image-card">
               <img
                 src="./images/technoduck.png"
                 alt="Technoduck"
                 width="370px"
                 height="294px"
+                class="card-one"
               />
               <br />
               <span class="image-title"><b>Technoduck</b></span>
@@ -60,12 +72,13 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="image-card">
               <img
                 src="./images/poster-new-orlean.png"
                 alt="Poster New Orlean"
                 width="370px"
                 height="294px"
+                class="card-two"
               />
               <br />
               <span class="image-title"
@@ -76,12 +89,13 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="image-card">
               <img
                 src="./images/seafood-restaurant.png"
                 alt="Seafood Restaurant"
                 width="370px"
                 height="294px"
+                class="card-three"
               />
               <br />
               <span class="image-title"><b>Seafood Restaurant </b></span>
@@ -90,12 +104,13 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="image-card">
               <img
                 src="./images/project-prime.png"
                 alt="Project Prime"
                 width="370px"
                 height="294px"
+                class="card-four"
               />
               <br />
               <span class="image-title"><b>Project Prime</b></span>
@@ -104,12 +119,13 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="image-card">
               <img
                 src="./images/project-boxes.png"
                 alt="Project Boxes"
                 width="370px"
                 height="294px"
+                class="card-one"
               />
               <br />
               <span class="image-title"><b>Project Boxes</b></span>
@@ -118,12 +134,13 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="image-card">
               <img
                 src="./images/inspiration-has-no-borders.png"
                 alt=" Inspiration has no border"
                 width="370px"
                 height="294px"
+                class="card-two"
               />
               <br />
               <span class="image-title"><b>Inspiration has no Borders</b></span>
@@ -132,12 +149,13 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="image-card">
               <img
                 src="./images/limited-edition.png"
                 alt="Limited Edition"
                 width="370px"
                 height="294px"
+                class="card-three"
               />
               <br />
               <span class="image-title"><b>Limited Edition</b></span>
@@ -146,12 +164,13 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="image-card">
               <img
                 src="./images/project-lab.png"
                 alt="Project Lab"
                 width="370px"
                 height="294px"
+                class="card-four"
               />
               <br />
               <span class="image-title"><b>Project LAB</b></span>
@@ -160,17 +179,18 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="image-card">
               <img
                 src="./images/growing-business.png"
                 alt="Growing Business"
                 width="370px"
                 height="294px"
+                class="card-one"
               />
               <br />
               <span class="image-title"><b>Growing Business</b></span>
               <br />
-              <spa class="job-title" n>Apps</spa>
+              <span class="job-title">Apps</span>
             </div>
           </li>
         </ul>
@@ -178,9 +198,7 @@
     </main>
     <footer class="info-footer">
       <div>
-        <a href="index.html">
-          <h2 class="logo-web">WebStudio</h2>
-        </a>
+        <a href="index.html" class="logo logo-footer"><span>Web</span>Studio</a>
         <address class="contact-details">
           695 Park Ave, NY 10065, USA
           <br />
