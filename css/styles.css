@@ -617,7 +617,7 @@ ul {
   flex-direction: column;
 }
 
-.job-title {
+.image-card .job-title {
   display: flex;
   padding-left: 24px;
   padding-bottom: 20px;
